@@ -1,15 +1,21 @@
 ---
 name: academic-task-planner
-version: 2.0
-description: Transform academic course assignment PDFs into structured, actionable markdown checklists with dates, unique IDs, and custom tags
-type: academic
-language: es
-tags:
-  - planning
-  - academic
-  - productivity
-  - pdf-processing
-  - task-management
+description: |
+  Transform academic course assignment PDFs into structured, actionable markdown
+  checklists with dates, unique IDs, and custom tags. Asks when the user will start,
+  assigns tasks only to weekdays (Monday-Friday), respects weekends automatically,
+  and calculates forum deadlines 3 days before due date. Use this skill when the user
+  uploads academic PDFs or asks to create a task plan from course assignments.
+metadata:
+  version: 2.0
+  type: academic
+  language: es
+  tags:
+    - planning
+    - academic
+    - productivity
+    - pdf-processing
+    - task-management
 ---
 
 # Academic Task Planner Skill
