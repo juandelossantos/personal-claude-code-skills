@@ -1,3 +1,17 @@
+---
+name: academic-task-planner
+version: 2.0
+description: Transform academic course assignment PDFs into structured, actionable markdown checklists with dates, unique IDs, and custom tags
+type: academic
+language: es
+tags:
+  - planning
+  - academic
+  - productivity
+  - pdf-processing
+  - task-management
+---
+
 # Academic Task Planner Skill
 
 ## Purpose
