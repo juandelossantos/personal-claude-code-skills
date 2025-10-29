@@ -1,0 +1,28 @@
+name: academic-task-planner
+version: 2.0
+description: |
+  Transform academic course assignment PDFs into structured, actionable markdown
+  checklists with dates, unique IDs, and custom tags. Asks when the user will start,
+  assigns tasks only to weekdays (Monday-Friday), respects weekends automatically,
+  and calculates forum deadlines 3 days before due date.
+author: David Emilio Sierra Puentes
+created: 2025-10-28
+updated: 2025-10-28
+type: academic
+language: es
+tags:
+  - planning
+  - academic
+  - productivity
+  - pdf-processing
+  - task-management
+capabilities:
+  - pdf_analysis
+  - date_calculation
+  - checklist_generation
+  - weekend_avoidance
+documentation: SKILL.md
+readme: README.md
+quickstart: QUICKSTART.md
+examples:
+  - examples/weekend-avoidance.md
